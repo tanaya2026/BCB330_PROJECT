@@ -1,8 +1,9 @@
 # BCB330_PARSING_NARROW_PEAKS
 - Repository of all files and code needed to parse NarrowPeak files from Li et al., 2023. 
 
-Link to NarrowPeak files: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
-AGI's for bZIPs obtained from: https://www.arabidopsis.org/
+- Link to NarrowPeak files: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
+  
+- AGI's for bZIPs obtained from: https://www.arabidopsis.org/
 
 
 File	Description:
@@ -10,5 +11,5 @@ File	Description:
 | File  | Description |
 | ------------- | ------------- |
 | TAIR10_GFF3_genes.gff  |  |
-| bZIP_AGIs  | Content Cell  |
+| bZIP_AGIs  | |
 
