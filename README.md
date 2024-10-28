@@ -12,4 +12,7 @@ File	Description:
 | ------------- | ------------- |
 | TAIR10_GFF3_genes.gff  |  |
 | bZIP_AGIs  | |
+| 5' UTR extracted | Contains only the 5'UTR information from the TAIR file |
+| 5' UTR_extracted_code.py | Contains the code to extract the 5'UTR information from the TAIR file |
+
 
