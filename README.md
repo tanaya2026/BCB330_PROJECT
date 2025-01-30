@@ -19,12 +19,13 @@ and PPIs in Arabidopsis thaliana with their AGI’s
 
 - Link to NarrowPeak files from Li et al., 2023.: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
 - AGI's for bZIPs obtained from: https://www.arabidopsis.org/
+- TAIR file obtained from: https://www.arabidopsis.org/download/list?dir=Genes
 
 File	Description:
 
 | File  | Description |
 | ------------- | ------------- |
-| TAIR10_GFF3_genes.gff  | GFF file used to parse the NarrowPeak's|
+| NarrowPeakFiles  | NarrowPeak files from dDAP-seq paper|
 | bZIP_AGIs  | bZIP's AGIs list|
 | 5' UTR extracted | Contains only the 5'UTR information from the TAIR file |
 | 5' UTR_extracted_code.py | Code to extract the 5'UTR information from the TAIR file |
