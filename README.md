@@ -25,10 +25,15 @@ File	Description:
 
 | File  | Description |
 | ------------- | ------------- |
-| NarrowPeakFiles  | NarrowPeak files from dDAP-seq paper|
-| bZIP_AGIs  | bZIP's AGIs list|
-| 5' UTR extracted | Contains only the 5'UTR information from the TAIR file |
-| 5' UTR_extracted_code.py | Code to extract the 5'UTR information from the TAIR file |
+| NarrowPeakFiles  | NarrowPeak files from dDAP-seq paper, Li et al., 2023|
+| Python Code to Parse NarrowPeakFiles | Python Code to Parse NarrowPeakFiles from Li et al., 2023 using TAIR_GFF|
+| R Code to Parse NarrowPeak Files | R Code to Parse NarrowPeak Files from Li et al., 2023 using TAIR_GFF |
+| Top_3000_peaks | The Top 3000 peaks from each NarrowPeak file, based on decreasing fold enrichment value and decreasing q value|
+| bZIP_AGIs.txt  | AGI's of bZIP's in Li et al., 2023|
+
+
+
+
 
 
 
