@@ -1,7 +1,7 @@
 # BCB330_PROJECT
 
 **Incorporating novel PDIs and PPIs from the dDAP-seq technique in the AIV2/ePlant database will 
-be beneficial to researchers in visualizing new connec ons, gaining insight and forming 
+be beneficial to researchers in visualizing new connections, gaining insight and forming 
 conclusions about the GRNs in Arabidopsis thaliana.**
 
 Objectives: 
