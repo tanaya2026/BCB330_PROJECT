@@ -70,13 +70,16 @@ and PPIs in Arabidopsis thaliana with their corresponding AGI’s
 | bZIP_AGIs.txt  | AGI's of bZIP's involved in Li et al., 2023|
 | main_promoter.rmd | R Code to extract the Promoter element from the narrowPeak files|
 
-# R Libraries used: 
+R Libraries used: 
 ChIPseeker,
 GenomicRanges,
 rtracklayer,
 TxDb.Athaliana.BioMart.plantsmart51,
 org.At.tair.db,
 GenomicFeatures.
+
+
+
 
 
 2. Design and Implementation of a User Interface for dDAP-seq Data Visualization 
