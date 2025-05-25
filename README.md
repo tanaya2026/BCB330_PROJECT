@@ -1,4 +1,4 @@
-# BCB330_PROJECT
+# BCB330_PROJECT: Developing a gene regulatory network of Arabidopsis thaliana
 
 **Incorporating novel PDIs and PPIs from the dDAP-seq technique in the AIV2/ePlant database will 
 be beneficial to researchers in visualizing new connections, gaining insight and forming 
