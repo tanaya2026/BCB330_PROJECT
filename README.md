@@ -39,17 +39,56 @@ populating the AIV2/ePlant database by parsing the narrowPeak files with referen
 TAIR10_gff3 file to obtain genes involved in PDIs and PPIs in Arabidopsis thaliana with their AGI’s.  
 2. Design and implement the user interface(UI)  for the visualisation of dDAP-seq data.  
 
+# Languages Used:
+1. Python
+2. R
+3. JavaScript
 
 # Methods: 
-1.a. Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
+1.Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
 and PPIs in Arabidopsis thaliana with their corresponding AGI’s 
 
 - Link to narrowPeak files from Li et al., 2023.: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
 - AGI's for bZIPs obtained from: https://www.arabidopsis.org/
-- TAIR file obtained from: https://www.arabidopsis.org/download/list?dir=Genes
+- TAIR10_gff3 file obtained from: https://www.arabidopsis.org/download/list?dir=Genes
 - Link to Li et al., 2023's paper: https://pubmed.ncbi.nlm.nih.gov/37147307/
 
-File	Description:
+| Folder | Description |
+| ------------- | Python code to parse the narrowPeak files from Li et al., 2023 |
+| ------------- | R code to parse the narrowPeak files from Li et al., 2023 |
+
+| ------------- | Top 3000 peaks per narrowPeak file ranked by decreasing -log10(qvalue) and by decreasing fold enrolment value|
+ 
+| ------------- | narrowPeak files obtained from Li et al., 2023 |
+
+| File  | Description |
+| ------------- | ------------- |
+| 5'UTR_+-1000.py | Code to extract the promoter element from the narrowPeak files |
+| 5'UTR_extract.py| Code to extract the 5' UTR sequences from the TAIR10_gff3 file |
+| main_agi_extraction.py |  Core parsing algorithm to parse narrowPeakFiles from Li et al., 2023 using TAIR10_gff3|
+| insert_promoter.py| Code to insert an extra column containing the promoter range into TAIR10_gff3|
+| Top_3000.py | Code to extract top 3000 peaks per narrowPeak file |
+| bZIP_AGIs.txt  | AGI's of bZIP's involved in Li et al., 2023|
+| main_promoter.rmd | R Code to extract the Promoter element from the narrowPeak files|
+
+R Libraries used:
+ChIPseeker
+GenomicRanges
+rtracklayer
+TxDb.Athaliana.BioMart.plantsmart51
+org.At.tair.db
+GenomicFeatures
+
+
+2. Design and Implementation of a User Interface for dDAP-seq Data Visualization 
+
+Link to sample dDAP data JSON file:https://bar.utoronto.ca/~nprovart/sample-double-bzip.json
+Link to AIV2 code repository: https://github.com/VinLau/AIV-v2-cytoscapeJS/tree/master
+Link to BAR API: https://bar.utoronto.ca/api/gene_information/single_gene_query/arabidopsis/AT5G28770
+
+| File  | Description |
+| ------------- | ------------- |
+| aiv.js | Code to run AIV2 with dDAP-seq data implementation, and to visualize dDAP-seq determined PDI table|
 
 
 
