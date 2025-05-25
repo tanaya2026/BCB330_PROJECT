@@ -1,4 +1,4 @@
-# Developing a gene regulatory network of Arabidopsis thaliana
+# BCB330: Developing a gene regulatory network of Arabidopsis thaliana
 
 Recent work by Li et al., introduced a novel technique called double DNA Affinity Purification
 sequencing (dDAP-seq). dDAP-seq focuses on the dimerization (homodimerization and 
