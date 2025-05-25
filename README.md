@@ -45,7 +45,7 @@ TAIR10_gff3 file to obtain genes involved in PDIs and PPIs in Arabidopsis thalia
 3. JavaScript
 
 # Methods: 
-1.Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
+1. Parsing the narrowPeak Files with reference to a GFF file to obtain regulatory elements involved in PDIs 
 and PPIs in Arabidopsis thaliana with their corresponding AGI’s 
 
 - Link to narrowPeak files from Li et al., 2023.: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198873
@@ -54,12 +54,11 @@ and PPIs in Arabidopsis thaliana with their corresponding AGI’s
 - Link to Li et al., 2023's paper: https://pubmed.ncbi.nlm.nih.gov/37147307/
 
 | Folder | Description |
-| ------------- | Python code to parse the narrowPeak files from Li et al., 2023 |
-| ------------- | R code to parse the narrowPeak files from Li et al., 2023 |
-
-| ------------- | Top 3000 peaks per narrowPeak file ranked by decreasing -log10(qvalue) and by decreasing fold enrolment value|
- 
-| ------------- | narrowPeak files obtained from Li et al., 2023 |
+| ------------- | ------------- |
+| Python Code to Parse NarrowPeakFiles| Python code to parse the narrowPeak files from Li et al., 2023 |
+| R Code to Parse NarrowPeak Files | R code to parse the narrowPeak files from Li et al., 2023 |
+| Top_3000_peaks | Top 3000 peaks per narrowPeak file ranked by decreasing -log10(qvalue) and by decreasing fold enrolment value|
+| NarrowPeakFiles| narrowPeak files obtained from Li et al., 2023 |
 
 | File  | Description |
 | ------------- | ------------- |
@@ -71,20 +70,20 @@ and PPIs in Arabidopsis thaliana with their corresponding AGI’s
 | bZIP_AGIs.txt  | AGI's of bZIP's involved in Li et al., 2023|
 | main_promoter.rmd | R Code to extract the Promoter element from the narrowPeak files|
 
-R Libraries used:
-ChIPseeker
-GenomicRanges
-rtracklayer
-TxDb.Athaliana.BioMart.plantsmart51
-org.At.tair.db
-GenomicFeatures
+# R Libraries used: 
+ChIPseeker,
+GenomicRanges,
+rtracklayer,
+TxDb.Athaliana.BioMart.plantsmart51,
+org.At.tair.db,
+GenomicFeatures.
 
 
 2. Design and Implementation of a User Interface for dDAP-seq Data Visualization 
 
-Link to sample dDAP data JSON file:https://bar.utoronto.ca/~nprovart/sample-double-bzip.json
-Link to AIV2 code repository: https://github.com/VinLau/AIV-v2-cytoscapeJS/tree/master
-Link to BAR API: https://bar.utoronto.ca/api/gene_information/single_gene_query/arabidopsis/AT5G28770
+- Link to sample dDAP data JSON file:https://bar.utoronto.ca/~nprovart/sample-double-bzip.json
+- Link to AIV2 code repository: https://github.com/VinLau/AIV-v2-cytoscapeJS/tree/master
+- Link to BAR API: https://bar.utoronto.ca/api/gene_information/single_gene_query/arabidopsis/AT5G28770
 
 | File  | Description |
 | ------------- | ------------- |
